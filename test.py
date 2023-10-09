@@ -43,3 +43,50 @@
 #     print("tu es mineur")
 # else:
 #     print("tu es majeur")
+
+# tableau [] = liste
+# var = "toto"
+# tableau = ["a", "bcd", 12, var]
+# print(tableau[2])
+# numéros de case : [0, 1, 2, 3]
+# print(tableau)
+
+# for i in tableau:
+#     print(i)
+
+# tableau {} = dictionnaire
+# dic = {
+#     "a": "toto",
+#     4: 157,
+#     345: "tata"
+# }
+# # affichage du tableau
+# print(dic)
+# # afficher "toto"
+# print( dic["a"])
+# # afficher tata
+# print( dic[345])
+# # affcher tous les éléments du tableau : 
+# for cle, valeur in enumerate(dic):
+#     print(cle, valeur, dic[valeur])
+
+# soit le tableau suivant, afficher tous les éléments 1 par 1 :
+# (tableau à 2 dimensions)
+tablo = [
+    1,
+    "test",
+    [
+        "a",
+        "z",
+        "e"
+    ],
+    "r",
+    "t",
+    "y"
+]
+
+# connaitre la longueur d'un tableau ou d'une String
+# string = "mastring"
+# tablo = ["a", "bcd", 12, 35, 79, "azeutyg"]
+# print( len(string) )
+# print( len(tablo) )
