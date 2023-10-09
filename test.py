@@ -105,3 +105,32 @@
 # tablo = ["a", "bcd", 12, 35, 79, "azeutyg"]
 # print( len(string) )
 # print( len(tablo) )
+
+# demander à 3 utilisateurs différents leur age pour leur dire
+# s'ils sont majeur ou non ?
+age1 = input("quel age as-tu ? (age1)")
+
+if(int(age1) > 100):
+    print("bienvenue au paradis : tu est mort :D ")
+elif (int(age1) < 18):
+    print("tu es mineur")
+else:
+    print("tu es majeur")
+
+age2 = input("quel age as-tu ? (age2)")
+
+if(int(age2) > 100):
+    print("bienvenue au paradis : tu est mort :D ")
+elif (int(age2) < 18):
+    print("tu es mineur")
+else:
+    print("tu es majeur")
+
+age3 = input("quel age as-tu ? (age3)")
+
+if(int(age3) > 100):
+    print("bienvenue au paradis : tu est mort :D ")
+elif (int(age3) < 18):
+    print("tu es mineur")
+else:
+    print("tu es majeur")
