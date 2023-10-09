@@ -108,29 +108,30 @@
 
 # demander à 3 utilisateurs différents leur age pour leur dire
 # s'ils sont majeur ou non ?
-age1 = input("quel age as-tu ? (age1)")
 
-if(int(age1) > 100):
-    print("bienvenue au paradis : tu est mort :D ")
-elif (int(age1) < 18):
-    print("tu es mineur")
-else:
-    print("tu es majeur")
+# créer une fonction is_majeur
+# renvoie "-1" si mort
+# renvoie "0" si mineur
+# renvoie "1" si majeur
+def is_majeur( age ):
+    if(int(age) > 100):
+        print("bienvenue au paradis : tu est mort :D ")
+        return -1
+    elif (int(age) < 18):
+        print("tu es mineur")
+        return 0
+    else:
+        print("tu es majeur")
+        return 1
+
+age1 = input("quel age as-tu ? (age1)")
+is_1 = is_majeur(age1)
+print(is_1)
 
 age2 = input("quel age as-tu ? (age2)")
-
-if(int(age2) > 100):
-    print("bienvenue au paradis : tu est mort :D ")
-elif (int(age2) < 18):
-    print("tu es mineur")
-else:
-    print("tu es majeur")
+is_2 = is_majeur(age2)
+print(is_2)
 
 age3 = input("quel age as-tu ? (age3)")
-
-if(int(age3) > 100):
-    print("bienvenue au paradis : tu est mort :D ")
-elif (int(age3) < 18):
-    print("tu es mineur")
-else:
-    print("tu es majeur")
+is_3 = is_majeur(age3)
+print(is_3)
