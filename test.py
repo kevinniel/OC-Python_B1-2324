@@ -72,18 +72,33 @@
 
 # soit le tableau suivant, afficher tous les éléments 1 par 1 :
 # (tableau à 2 dimensions)
-tablo = [
-    1,
-    "test",
-    [
-        "a",
-        "z",
-        "e"
-    ],
-    "r",
-    "t",
-    "y"
-]
+# tablo = [
+#     1,
+#     "test",
+#     [
+#         "a",
+#         "z",
+#         "e"
+#     ],
+#     "r",
+#     "t",
+#     "y"
+# ]
+# solution 1
+# for valeur in tablo:
+#     if( type(valeur) is list ):
+#         for v in valeur:
+#             print(v)
+#     else:
+#         print(valeur)
+
+# solution 2
+# for i in range(0, len(tablo)):
+#     print("i", i)
+#     print("tablo[i]", tablo[i])
+    # non faisable en python sans vérifier le type !
+
+
 
 # connaitre la longueur d'un tableau ou d'une String
 # string = "mastring"
